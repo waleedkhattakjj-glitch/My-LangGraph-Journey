@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 model = ChatGroq(
-    model="openai/gpt-oss-120b",
+    model="enter your model here",
     temperature=1.5,
 )
 
@@ -57,7 +57,7 @@ graph.add_edge('llm_node' , END)
 # (6) now compile graph
 workflow = graph.compile()
 
-f_answer = workflow.invoke({'question' : "what is jamiat talaba e islam"})
+f_answer = workflow.invoke({'question' : "AI in pakistan"})
 print(f_answer)
 
 from IPython.display import Image
