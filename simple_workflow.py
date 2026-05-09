@@ -1,5 +1,3 @@
-# simple_workflow.py
-
 # sequential workflow
 # how to make a graph in langGraph
 # it have 7 steps 
