@@ -1,4 +1,4 @@
-Welcome to my LangGraph Learning Journey repository.
+*Welcome to my LangGraph Learning Journey repository.*
 This repository documents my daily progress, experiments, and hands on practice while learning LangGraph, AI Agents, and Agentic AI Development.
 
 My goal is to deeply understand how modern AI systems are built using:
