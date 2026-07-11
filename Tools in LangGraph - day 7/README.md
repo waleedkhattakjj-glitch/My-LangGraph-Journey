@@ -23,42 +23,10 @@ DuckDuckGo: Web search integration
 
 Python 3.13+
 
-📦 Installation
-Clone the repository
-
-bash
-git clone https://github.com/yourusername/langgraph-journey.git
-cd langgraph-journey
-Create and activate virtual environment
-
-bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
-
-bash
-pip install langchain-google-genai langchain-community langgraph python-dotenv
-Set up environment variables
-Create a .env file in the project root:
-
-env
+Create a .env filr and put your api key
+.env
 GOOGLE_API_KEY=your_google_api_key_here
-🚀 Usage
-Run the agent:
 
-python
-python tools.py
-The agent will process your query and return results. Example query:
-
-text
-"What is today's latest news about AI Engineer Role and what is 25 * 6"
-📁 Project Structure
-text
-langgraph-journey/
-├── tools.py           # Main application file
-├── .env              # Environment variables
-├── requirements.txt  # Project dependencies
-└── README.md         # Project documentation
 🔧 How It Works
 Model Setup: Initializes Google Gemini model with tool bindings
 
